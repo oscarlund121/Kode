@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  padding-top: 1em;
+  padding-left: 1em;
+  border-radius: 1em;
+  border-width: 5px;
+  border: none;
+}
+@media (min-width: 800px) {
+  .fs_menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 12em;
+    padding-right: 6em;
+  }
+}
