@@ -11,7 +11,7 @@
   --hfont: "Helvetica", sans-serif;
   --textfont: "Raleway", sans-serif;
   /* Font size */
-  --h1: 100px;
+  --h1: 150px;
   --h2: 70px;
   --h3: 50px;
   --text: 20px;
@@ -63,4 +63,16 @@ header {
 li a {
   text-decoration: none;
   /* text-align: right; */
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Juster højden efter behov */
+  width: 100%;
+  position: relative; /* For at sikre footer placering */
+}
+
+footer p {
+  margin: 0;
 }

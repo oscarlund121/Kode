@@ -12,6 +12,7 @@
 .fs_menu li {
   position: relative;
 }
+
 @media (max-width: 799px) {
   .fs_menu {
     display: none;
@@ -73,6 +74,33 @@ Menuen (fs_menu) er skjult på mindre skærme og vises kun, når burgermenuen kl
 JavaScript:
 
 Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styrer dens synlighed. */
+  .lottiefile {
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    align-items: center;
+  }
+  .ms_h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+
+  h1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 5px; /* Afstand mellem bogstaverne */
+    text-align: left;
+  }
+
+  h1 span {
+    display: block;
+    color: #120f0a;
+  }
 }
 
 @media (min-width: 800px) {
