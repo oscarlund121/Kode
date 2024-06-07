@@ -12,9 +12,9 @@
   --textfont: "Raleway", sans-serif;
   /* Font size */
   --h1: 150px;
-  --h2: 70px;
-  --h3: 50px;
-  --text: 20px;
+  --h2: 50px;
+  --h3: 15px;
+  --text: 15px;
   /* Font weight */
   --regular: 400;
 }
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   font-family: var(--hfont);
-  font-size: var(--hfont);
+  font-size: var(--h2);
   font-weight: var(--regular);
   color: var(--colorBlack);
 }

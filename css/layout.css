@@ -6,7 +6,15 @@
   border-width: 5px;
   border: none;
 }
+.button {
+  width: 60px;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  border-radius: 1em;
 
+  border: none;
+}
 .fs_menu li {
   position: relative;
 }
@@ -103,13 +111,37 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   .fs_h1 {
     display: none;
   }
-  .grid_5 { 
+  .grid_5 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     padding: 5%;
   }
- 
+  .tema_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+  }
+  .gridrow_2 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 4%;
+  }
+
+  .tema_pic {
+    width: 100%;
+  }
+  .tema_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: left;
+  }
 }
 
 @media (min-width: 800px) {
