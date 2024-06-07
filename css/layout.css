@@ -198,7 +198,6 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   .gridrow_2 {
     display: grid;
     grid-template-columns: 2fr 1fr;
-
     align-items: start;
   }
   .tema_grid {
