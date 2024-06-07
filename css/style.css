@@ -1,13 +1,6 @@
 @import url(/css/global.css);
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #dbb709;
-  height: 80px;
-  width: 100%;
-}
+
 body {
   background-color: #dbb709;
 }
+

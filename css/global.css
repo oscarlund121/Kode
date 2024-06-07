@@ -7,5 +7,60 @@
   --colorBlack: #120f0a;
   /* Baggrunds- og header farve */
   --colorOrange: #ed7030;
+  /* Fonts */
+  --hfont: "Helvetica", sans-serif;
+  --textfont: "Raleway", sans-serif;
+  /* Font size */
+  --h1: 100px;
+  --h2: 70px;
+  --h3: 50px;
+  --text: 20px;
+  /* Font weight */
+  --regular: 400;
+}
+/* VAR usage */
+h1 {
+  font-family: var(--hfont);
+  font-size: var(--h1);
+  font-weight: var(--regular);
+  color: var(--colorBlack);
 }
 
+h2 {
+  font-family: var(--hfont);
+  font-size: var(--hfont);
+  font-weight: var(--regular);
+  color: var(--colorBlack);
+}
+
+h3 {
+  font-family: var(--hfont);
+  font-size: var(--h3);
+  font-weight: var(--regular);
+  color: var(--colorBlack);
+}
+
+p,
+a {
+  font-family: var(--textfont);
+  font-size: var(--text);
+  font-weight: var(--regular);
+  color: var(--colorBlack);
+}
+
+/* Global component */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dbb709;
+  height: 80px;
+  width: 100%;
+  font-family: var(--textfont);
+}
+li a {
+  text-decoration: none;
+  /* text-align: right; */
+}
