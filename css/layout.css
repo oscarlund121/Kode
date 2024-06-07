@@ -1,4 +1,5 @@
 @import url(/css/global.css);
+
 .logo {
   width: 60px;
   padding: 0.5em;
@@ -12,14 +13,13 @@
   padding-top: 0.5em;
   padding-bottom: 1em;
   border-radius: 1em;
-
   border: none;
 }
 .fs_menu li {
   position: relative;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 @media (max-width: 799px) {
@@ -131,6 +131,11 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     grid-template-rows: repeat(1, 1fr);
     margin: 4%;
   }
+  .gridrow_3 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 4%;
+  }
 
   .tema_pic {
     width: 100%;
@@ -168,5 +173,55 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     justify-content: center;
     align-items: center;
     margin-top: 1%;
+  }
+  .grid_5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .tema_box {
+    padding: 25%;
+    border: 1px solid #120f0a;
+    text-align: center;
+  }
+
+  .tema_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .gridrow_2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    align-items: start;
+  }
+  .tema_grid {
+    padding-right: 6em;
+  }
+  .tema_pic {
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+  }
+  .tema_grid_2 {
+    padding-right: 2em;
+  }
+  .gridrow_3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .tema_grid_3 {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .tema_grid_4 {
+    padding-right: 4em;
   }
 }
