@@ -1,9 +1,7 @@
 @import url(/css/global.css);
 .logo {
-  width: 80px;
-  height: 80px;
-  padding-top: 1em;
-  padding-left: 1em;
+  width: 60px;
+  padding: 0.5em;
   border-radius: 1em;
   border-width: 5px;
   border: none;
@@ -19,13 +17,14 @@
     flex-direction: column;
     position: absolute;
     top: 1%;
-    right: 22%;
+    right: 25%;
     list-style: none;
     background-color: #dbb709;
     width: 50%;
     padding: 0.1em 0;
     align-items: center;
     border: 1px solid black;
+    z-index: 1;
   }
   .fs_menu.show {
     display: flex;
@@ -101,6 +100,16 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     display: block;
     color: #120f0a;
   }
+  .fs_h1 {
+    display: none;
+  }
+  .grid_5 { 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 5%;
+  }
+ 
 }
 
 @media (min-width: 800px) {
@@ -115,5 +124,14 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   }
   .burger-menu {
     display: none;
+  }
+  .ms_h1 {
+    display: none;
+  }
+  .fs_h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
   }
 }

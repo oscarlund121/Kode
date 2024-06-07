@@ -59,6 +59,7 @@ header {
   height: 80px;
   width: 100%;
   font-family: var(--textfont);
+  border-bottom: 1px #120f0a solid;
 }
 li a {
   text-decoration: none;
