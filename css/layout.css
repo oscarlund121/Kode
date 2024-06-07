@@ -18,6 +18,9 @@
 .fs_menu li {
   position: relative;
 }
+a {
+    text-decoration: none;
+}
 
 @media (max-width: 799px) {
   .fs_menu {
