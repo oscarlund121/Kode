@@ -159,6 +159,9 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   .portræt_img {
     width: 100%;
   }
+  .cv_img {
+    width: 100%;
+  }
   .grid_1-1-1 {
     margin-left: 2em;
     margin-right: 2em;
@@ -244,5 +247,22 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   }
   .tema_grid_4 {
     padding-right: 4em;
+  }
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2em;
+  }
+  .portræt_img {
+    width: 100%;
+    clip-path: inset(0 0 6.5% 0);
+  }
+  .cv_img {
+    width: 100%;
+  }
+
+  .text_me {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
