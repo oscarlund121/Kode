@@ -98,6 +98,12 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     align-items: center;
     /* height: 100vh; */
   }
+  .ms_h1_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+  }
 
   h1 {
     display: grid;
@@ -166,6 +172,9 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     display: none;
   }
   .ms_h1 {
+    display: none;
+  }
+  .ms_h1_1 {
     display: none;
   }
   .fs_h1 {

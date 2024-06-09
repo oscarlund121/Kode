@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #dbb709;
-  }
+  background-color: #dbb709;
+}
 :root {
   /* Teskt farve */
   --colorBlack: #120f0a;
@@ -65,6 +65,7 @@ header {
   font-family: var(--textfont);
   border-bottom: 1px #120f0a solid;
 }
+
 li a {
   text-decoration: none;
   /* text-align: right; */
@@ -74,5 +75,5 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  position: relative; 
+  position: relative;
 }
