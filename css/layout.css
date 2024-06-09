@@ -3,6 +3,7 @@
 .logo {
   width: 60px;
   padding: 0.5em;
+  padding-left: 4em;
   border-radius: 1em;
   border-width: 5px;
   border: none;
@@ -264,5 +265,13 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   .text_me {
     padding-left: 2em;
     padding-right: 2em;
+  }
+  .lottiefile {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    
+    align-items: center;
   }
 }
