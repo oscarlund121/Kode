@@ -86,11 +86,11 @@ JavaScript:
 
 Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styrer dens synlighed. */
   .lottiefile {
-    padding-top: 2%;
+    
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10%;
-    margin-top: 5%;
+    
     align-items: center;
   }
   .ms_h1 {
@@ -267,7 +267,7 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     padding-right: 2em;
   }
   .lottiefile {
-
+    
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 2%;
