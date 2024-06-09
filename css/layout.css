@@ -156,6 +156,19 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     padding-right: 7%;
     text-align: left;
   }
+  .portræt_img {
+    width: 100%;
+  }
+  .grid_1-1-1 {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .mig_class {
+    padding-bottom: 2em;
+  }
+  .text_me {
+    padding-bottom: 2em;
+  }
 }
 
 @media (min-width: 800px) {
