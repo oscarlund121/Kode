@@ -70,14 +70,6 @@ br {
     padding: 1em 0;
     margin: 0;
   }
-  /*   .fs_menu li:not(:last-child)::after {
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 1px;
-    height: 50%;
-    background-color: black;
-  } */
   .fs_menu li:not(:last-child)::after {
     content: "";
     position: absolute;
@@ -90,18 +82,7 @@ br {
     height: 1px;
     background-color: black;
   }
-  /* HTML:
 
-En burger-menu div er tilføjet til at fungere som menuikonet.
-fs_menu er den faktiske menu, som vil blive vist/skjult ved klik på burgermenu-ikonet.
-CSS:
-
-Grundlæggende styling for header og menu.
-burger-menu er skjult som standard og vises kun på mindre skærme (max-width: 768px).
-Menuen (fs_menu) er skjult på mindre skærme og vises kun, når burgermenuen klikkes.
-JavaScript:
-
-Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styrer dens synlighed. */
   .lottiefile {
     margin-left: 10%;
     margin-right: 10%;
@@ -140,9 +121,10 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   .grid_5 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    gap: 3px;
     padding: 5%;
     margin-left: 1em;
+    margin-right: 1em;
   }
   .tema_class {
     display: flex;
