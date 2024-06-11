@@ -50,6 +50,7 @@ a {
   font-size: var(--text);
   font-weight: var(--regular);
   color: var(--colorBlack);
+  line-height: 1.5;
 }
 
 /* Global component */

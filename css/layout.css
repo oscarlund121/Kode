@@ -1,6 +1,6 @@
 @import url(/css/global.css);
 
-.logo {
+.burger_logo {
   width: 60px;
   padding: 0.5em;
   padding-left: 4em;
@@ -8,10 +8,15 @@
   border-width: 5px;
   border: none;
 }
+.logo {
+  width: 150px;
+  padding-top: 1.5em;
+  padding-left: 2em;
+  border: none;
+}
 .button {
   width: 60px;
   padding-left: 2em;
-  padding-top: 0.5em;
   padding-bottom: 1em;
   border-radius: 1em;
   border: none;
@@ -21,6 +26,18 @@
 }
 a {
   text-decoration: none;
+}
+
+hr {
+  color: #120f0a;
+  border-top: 1px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+br {
+  display: block;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 799px) {
@@ -86,11 +103,10 @@ JavaScript:
 
 Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styrer dens synlighed. */
   .lottiefile {
-    
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10%;
-    
+
     align-items: center;
   }
   .ms_h1 {
@@ -126,6 +142,7 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     padding: 5%;
+    margin-left: 1em;
   }
   .tema_class {
     display: flex;
@@ -205,7 +222,7 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
   }
 
   .tema_box {
@@ -216,10 +233,11 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
 
   .tema_class {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-left: 2em;
   }
   .gridrow_2 {
     display: grid;
@@ -244,10 +262,10 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
   }
   .tema_grid_3 {
     padding-left: 2em;
-    padding-right: 2em;
   }
   .tema_grid_4 {
     padding-right: 4em;
+    padding-left: 2em;
   }
   .grid_1-1-1 {
     display: grid;
@@ -267,11 +285,10 @@ Funktionen toggleMenu tilføjer eller fjerner klassen show på menuen, som styre
     padding-right: 2em;
   }
   .lottiefile {
-    
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 2%;
-    
+
     align-items: center;
   }
 }
